@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CreateFootballStar</string>
+    <string name="name">NAME</string>
+    <string name="surname">SURNAME</string>
+    <string name="club">CLUB</string>
+    <string name="national">NATIONAL</string>
+    <string name="strike">STRIKE</string>
+    <string name="pass">PASS</string>
+    <string name="head">HEAD</string>
+    <string name="defense">DEFENSE</string>
+    <string name="atack">ATACK</string>
+    <string name="pressing">PRESSING</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+</resources>

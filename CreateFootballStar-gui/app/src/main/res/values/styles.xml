@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextOfName">
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:background">@color/colorBackground</item>
+        <item name="android:textColor">@color/colorTextSet</item>
+        <item name="android:textSize">@dimen/set_text</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+    
+    <style name="TitleOnUp">
+        <item name="android:textSize">@dimen/title</item>
+    </style>
+    
+    <style name="TitleOnDown">
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="TextOfAtributes" parent="TitleOnDown">
+        <item name="android:textColor">@color/colorTextSet</item>
+    </style>
+
+</resources>
