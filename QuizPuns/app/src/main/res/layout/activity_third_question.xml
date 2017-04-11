@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_third_question"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.quizpuns.Other">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+
+        <ImageView
+            android:id="@+id/imageThirdQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/motyl1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="WHAT IS IT?"
+            android:textSize="40sp"
+            android:gravity="center"/>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:onClick="onRadioButtonClicked"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="CLOVER"/>
+            <RadioButton
+                android:id="@+id/radio2"
+                android:onClick="onRadioButtonClicked"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="CLOUD"/>
+            <RadioButton
+                android:id="@+id/radio3"
+                android:onClick="onRadioButtonClicked"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="GLOVE"/>
+        </RadioGroup>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="HELP ME!"
+            android:textSize="40sp"
+            android:onClick="buttonThirdQuestion"
+            android:id="@+id/buttonThirdQ"/>
+
+    </LinearLayout>
+</LinearLayout>
